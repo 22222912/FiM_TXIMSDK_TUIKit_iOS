@@ -1,0 +1,49 @@
+PODS:
+  - FiM_TXIMSDK_TUIKit_iOS (0.1.0):
+    - FiM_VoiceConvert
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+  - FiM_VoiceConvert (666.0.0.1.1)
+  - ISVImageScrollView (0.1.2)
+  - MMLayout (0.3.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.7.4):
+    - SDWebImage/Core (= 5.7.4)
+  - SDWebImage/Core (5.7.4)
+  - Toast (4.0.0)
+  - TXIMSDK_iOS (4.8.1)
+
+DEPENDENCIES:
+  - FiM_TXIMSDK_TUIKit_iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FiM_VoiceConvert
+    - ISVImageScrollView
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+
+EXTERNAL SOURCES:
+  FiM_TXIMSDK_TUIKit_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FiM_TXIMSDK_TUIKit_iOS: f73e07ab0d8b3d1f8c3b907ceaa038f7df74d8b5
+  FiM_VoiceConvert: bdbe4e2b00453748459ea12df33c775c6505191a
+  ISVImageScrollView: ba511d12a1661b40feb8921309c0854bf93ec749
+  MMLayout: d559edecd69fbcb348368ba90917e047ab1c544e
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 48b88379b798fd1e4298f95bb25d2cdabbf4deb3
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXIMSDK_iOS: af3040b718f4b73c442de35602cc190f048cfcbc
+
+PODFILE CHECKSUM: 5557a55091ed5c4552a323739c335b5e48b6fed7
+
+COCOAPODS: 1.9.1

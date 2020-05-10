@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FiM_TXIMSDK_TUIKit_iOS_Example' do
+  pod 'FiM_TXIMSDK_TUIKit_iOS', :path => '../'
+
+  target 'FiM_TXIMSDK_TUIKit_iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
