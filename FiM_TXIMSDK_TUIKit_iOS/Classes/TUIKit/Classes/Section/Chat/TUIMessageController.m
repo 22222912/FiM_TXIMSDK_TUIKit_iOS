@@ -32,7 +32,6 @@
 #import "TIMMessage+DataProvider.h"
 #import "TUIUserProfileControllerServiceProtocol.h"
 #import <ImSDK/ImSDK.h>
-
 #define MAX_MESSAGE_SEP_DLAY (5 * 60)
 
 @interface TUIMessageController () <TIMMessageListener, TMessageCellDelegate>

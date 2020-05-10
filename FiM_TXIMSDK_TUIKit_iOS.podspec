@@ -27,6 +27,10 @@ TODO: Add long description of the pod here.
   s.author           = { 'zhuyuhui434@gmail.com' => 'zhuyuhui434@gmail.com' }
   s.source           = { :git => 'https://github.com/FirstMen/FiM_TXIMSDK_TUIKit_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.xcconfig     = { 'VALID_ARCHS' => 'armv7 arm64 x86_64', }
+  s.libraries    = 'stdc++'
+  
+  
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.source_files = 'FiM_TXIMSDK_TUIKit_iOS/Classes/**/*.{h,m,mm}'
